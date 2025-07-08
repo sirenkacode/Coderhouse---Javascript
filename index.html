@@ -2,52 +2,16 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Cita sobrenatural</title>
-  <style>
-    body {
-      font-family: "Georgia", serif;
-      background-color: #0d0d0d;
-      color: #f8f8f8;
-      padding: 2rem;
-      max-width: 700px;
-      margin: auto;
-    }
-    h1 {
-      color: #ff4d6d;
-      text-align: center;
-    }
-    #historia {
-      white-space: pre-wrap;
-      margin-top: 2rem;
-      border-left: 4px solid #ff4d6d;
-      padding-left: 1rem;
-      min-height: 100px;
-    }
-    .botonera {
-      margin-top: 1.5rem;
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-    button {
-      padding: 0.7rem 1.2rem;
-      background-color: #ff4d6d;
-      color: white;
-      border: none;
-      cursor: pointer;
-      font-size: 1rem;
-      border-radius: 5px;
-    }
-    button:hover {
-      background-color: #ff3355;
-    }
-  </style>
+  <title>Sombrero Seleccionador</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <h1>Cita sobrenatural</h1>
-  <div id="historia"></div>
-  <div class="botonera" id="botonera"></div>
-
-  <script src="js/cita-vampiro.js"></script>
+  <h1>🎩 Sombrero Seleccionador</h1>
+  <div id="contenedor">
+    <div id="pregunta"></div>
+    <div id="opciones" class="botonera"></div>
+  </div>
+  <div id="resultado"></div>
+  <script src="js/sombrero.js"></script>
 </body>
 </html>
